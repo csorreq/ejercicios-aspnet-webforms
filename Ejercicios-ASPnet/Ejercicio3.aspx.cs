@@ -20,7 +20,7 @@ namespace Ejercicios_ASPnet
             }
         }
 
-        protected void ButtonCalcular_Click(object sender, EventArgs e)
+        protected void Calcular(object sender, EventArgs e)
         {
             
             if (Suma.Checked)
@@ -71,9 +71,9 @@ namespace Ejercicios_ASPnet
 
     class Resta
     {
-        public int Restar(int v)
+        public int Restar(int v1, int v2)
         {
-            return v;
+            return v1 - v2;
         }
 
         public int Restar(int v1, int v2, int v3, int v4)
@@ -88,7 +88,7 @@ namespace Ejercicios_ASPnet
 
             foreach (int l in lista)
             {
-                result = Restar(result - l);
+                result = Restar(result, l);
             }
 
             return result;
