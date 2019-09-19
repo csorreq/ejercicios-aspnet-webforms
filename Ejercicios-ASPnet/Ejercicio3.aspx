@@ -23,7 +23,7 @@
     <span class="font-weight-bold ml-4">Fecha 2</span>
     <asp:TextBox ID="Fecha2" runat="server"></asp:TextBox>
 
-    <asp:Button ID="ButtonCalcular" runat="server" Text="Calcular" OnClick="ButtonCalcular_Click" />
+    <asp:Button ID="ButtonCalcular" runat="server" Text="Calcular" OnClick="Calcular" />
 
     <span class="font-weight-bold ml-4">Resultado: </span>
     <asp:Label ID="Result" runat="server"></asp:Label>
